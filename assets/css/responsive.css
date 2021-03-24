@@ -1,0 +1,641 @@
+/*
+======================= 
+Max width 1200px
+=======================
+*/
+@media (max-width:1199px){
+	.header-bottom-right ul li a {
+	    padding: 10px 4px!important;
+	}
+	.header-bottom-right ul li a i {
+	    font-size: 30px;
+	}
+	.header-bottom-right ul {
+	    margin-top: 0.5rem;
+	}
+	.banner-text h1 {
+	    font-size: 33px;
+	}
+	.wet-therapy-section h3 {
+	    font-size: 20px;
+	}
+	.wet-therapy-section img {
+	    height: 350px;
+	}
+
+	iframe {
+	    max-width: 100%;
+	}
+	.accordion-button {
+	    font-size: 18px;
+	}
+	.faq-right img {
+	    height: 350px;
+	    margin-top: 50px;
+	}
+	.who-left img{
+		width: 100%;
+	}
+
+
+}
+
+
+/*
+======================= 
+Min width 992px
+=======================
+*/
+@media (min-width:992px){
+
+}
+
+
+/*
+======================= 
+Max width 991px
+=======================
+*/
+@media (max-width:991px){
+	/* Nav */
+	.header-section.sticky {
+	    padding: 10px 0px;
+	}
+	.header-section.sticky ul li a{
+		color: #3da3e6!important;
+	}
+	.header-section.sticky .header-social ul li a{
+		color: #3da3e6!important;
+	}
+	.header-section.sticky .header-bottom-left img {
+	    width: 100px;
+	}
+	/* .header-section.sticky ul li a:hover{
+		color: #fff!important;
+	} */
+	.header-section.sticky .header-social ul{
+		margin-top: 25px;
+		transition: 0.3s;
+	}
+	
+	
+	nav.navbar {
+	    position: absolute;
+	    right: 0px;
+	    top: 20px;
+	    width: 100%;
+	}
+	button.navbar-toggler {
+	    position: absolute;
+	    right: 20px;
+	    top: 5px;
+	}
+	button.navbar-toggler:focus {
+	    box-shadow: none;
+	}
+	.navbar-light .navbar-toggler {
+	    color: rgba(0,0,0,.55);
+	    border-color: rgb(187 182 182);
+	}
+	.header-bottom-right ul {
+	    margin: 0;
+	    margin-top: 3.9rem;
+	    text-align: right;
+	    background: #2e3234;
+	}
+	.header-section.sticky .header-bottom-right ul {
+	    margin-top: 3.9rem;
+	    background: #fff;
+	}
+	.header-bottom-right ul li a {
+	    padding: 20px!important;
+	    font-size: 15px;
+	    border-bottom: 1px solid #ddd;
+	    text-align: right;
+	}
+	li.nav-item {
+	    display: block;
+	}
+	/* Nav end */
+
+	.header-bottom-left img {
+	    width: 100px;
+	}
+	.header-section .header-social ul {
+	    position: absolute;
+	    top: -5px;
+	    right: 100px;
+	}
+	.banner-section img {
+	    height: 500px;
+	}
+	.banner-section.about img {
+	    height: 350px;
+	}
+	
+	.banner-text p {
+	    font-size: 28px;
+	}
+	p.last-one {
+	    font-size: 16px;
+	    width: 100%;
+	}
+
+	.video-section.mt-5 iframe {
+	    height: 400px;
+	}
+	.blogging-item a h3 {
+	    padding: 0px 20px;
+	    font-size: 18px;
+	}
+
+	.news-letter .contact-left {
+	    text-align: center;
+	    margin-top: 50px;
+	}
+	.who-left img{
+		width: 100%;
+	}
+
+	.wet-therapy-section img {
+	    height: 260px;
+	}
+	.wet-therapy-section {
+	    margin-bottom: 15px;
+	}
+	.wet-therapy-section h3 {
+	    font-size: 18px;
+	}
+	.ice-bath-right img {
+	    width: 100%;
+	    height: 300px;
+	}
+
+	.normatec-section.mt-5 h2 {
+	    font-size: 25px;
+	}
+	.instruction ul li {
+	    padding: 5px 0px;
+	    font-size: 18px;
+	}
+	.faq-section h3 {
+	    font-size: 18px;
+	}
+	.accordion-button {
+	    font-size: 15px;
+	    text-align: left;
+	}
+	strong {
+	    font-size: 14px;
+	}
+	.accordion-button::after {
+	    width: 1rem;
+	    height: 1rem;
+	    background-size: 1rem;
+	    position: absolute;
+	    right: 20px;
+	    top: 16px;
+	}
+	.faq-right img {
+	    height: auto;
+	}
+	.who-right {
+	    padding: 0px;
+	    padding-right: 0;
+	    margin-top: 20px;
+	}
+	.who-right h3 {
+	    font-weight: 700;
+	    color: #3a3a3a;
+	    text-transform: capitalize;
+	    font-size: 25px;
+	}
+	.who-right p {
+	    font-size: 15px;
+	}
+
+	.contact-us-section.mt-5 {
+	    padding: 25px 0px;
+	}
+	.contact-us-section.mt-5 h2 {
+	    color: #fff;
+	    margin-bottom: 15px;
+	}
+	
+
+	.contact-left h3 {
+	    font-size: 30px;
+	}
+	.contact-left p {
+	    font-size: 17px;
+	}
+	.footer-left,.footer-middle,.footer-right {
+	    text-align: center;
+	}
+	.footer-left p {
+	    margin-bottom: 20px;
+	    font-size: 15px;
+	}
+	.copyright-section p {
+	    font-size: 14px;
+	}
+
+	.footer-top h3 {
+	    color: #000;
+	    font-size: 22px;
+	}
+	.header-social.footer ul {
+	    text-align: center;
+	}
+
+
+}
+
+/*
+======================= 
+Max width 768px
+=======================
+*/
+@media (max-width:767px){
+	/* Nav */
+	.bg-light {
+	    background-color: inherit!important;
+	}
+	nav.navbar {
+	    position: absolute;
+	    right: 0px;
+	    top: 20px;
+	    width: 100%;
+	}
+	button.navbar-toggler {
+	    position: absolute;
+	    right: 20px;
+	    top: 0;
+	}
+	button.navbar-toggler:focus {
+	    box-shadow: none;
+	}
+	.header-bottom-right ul {
+	    margin: 0;
+	    margin-top: 3.25rem;
+	    text-align: right;
+	    background: #2e3234;
+	}
+	.header-section.sticky .header-bottom-right ul {
+	    margin-top: 3.2rem;
+	    background: #fff;
+	}
+	.header-bottom-right ul li a {
+	    padding: 20px!important;
+	    font-size: 15px;
+	    border-bottom: 1px solid #ddd;
+	}
+	li.nav-item {
+	    display: block;
+	}
+	/* Nav end */
+	.header-bottom-left img,.header-section.sticky .header-bottom-left img  {
+	    width: 85px;
+	}
+	.header-section.sticky .header-social ul {
+	    margin-top: 15px;
+	}
+	.header-section .header-social ul {
+	    position: absolute;
+	    top: 0;
+	    right: 100px;
+	    margin-top: 15px;
+	}
+	.banner-section img {
+	    height: 550px;
+	}
+	.banner-text h1 {
+	    text-transform: capitalize;
+	    font-size: 28px;
+	}
+	.banner-text p {
+	    font-size: 20px;
+	}
+	p.last-one {
+	    font-size: 17px;
+	    width: 100%;
+	}
+	.button-section a {
+	    font-size: 18px;
+	    padding: 8px 50px;
+	}
+
+	.video-section.mt-5 iframe {
+	    height: 400px;
+	}
+
+	.who-left img{
+		width: 100%;
+	}
+
+	.wet-therapy-section img {
+	    height: 100%;
+	}
+	.wet-therapy-section {
+	    margin-bottom: 15px;
+	}
+	.wet-therapy-section h3 {
+	    font-size: 20px;
+	}
+	.ice-bath-left h4 {
+	    margin-top: 10px;
+	}
+	.ice-bath-right img {
+	    height: 100%;
+	}
+
+	.normatec-section.mt-5 h2 {
+	    font-size: 25px;
+	}
+	.instruction ul li {
+	    padding: 5px 0px;
+	    font-size: 18px;
+	}
+	.faq-section h3 {
+	    font-size: 18px;
+	}
+	.accordion-button {
+	    font-size: 15px;
+	    text-align: left;
+	}
+	strong {
+	    font-size: 14px;
+	}
+	.accordion-button::after {
+	    width: 1rem;
+	    height: 1rem;
+	    background-size: 1rem;
+	    position: absolute;
+	    right: 20px;
+	    top: 16px;
+	}
+	.faq-right img {
+	    height: auto;
+	}
+	.who-right {
+	    padding: 0px;
+	    padding-right: 0;
+	    margin-top: 20px;
+	}
+	.who-right h3 {
+	    font-weight: 700;
+	    color: #3a3a3a;
+	    text-transform: capitalize;
+	    font-size: 25px;
+	}
+	.who-right p {
+	    font-size: 15px;
+	}
+
+	.contact-us-section.mt-5 {
+	    padding: 25px 0px;
+	}
+	.contact-us-section.mt-5 h2 {
+	    color: #fff;
+	    margin-bottom: 15px;
+	}
+	.contact-left {
+	    margin-top: 0px;
+	}
+
+	.contact-left h3 {
+	    font-size: 30px;
+	}
+	.contact-left p {
+	    font-size: 17px;
+	    line-height: 1.5;
+	}
+	.footer-left,.footer-middle,.footer-right {
+	    text-align: center;
+	}
+	.footer-left p {
+	    margin-bottom: 20px;
+	    font-size: 15px;
+	}
+	.copyright-section p {
+	    font-size: 14px;
+	}
+
+
+}
+
+/*
+======================= 
+Max width 576px
+=======================
+*/
+@media (max-width:575px){
+	/* Nav */
+	.bg-light {
+	    background-color: inherit!important;
+	}
+	nav.navbar {
+	    position: absolute;
+	    right: 0px;
+	    top: 20px;
+	    width: 100%;
+	}
+	button.navbar-toggler {
+	    position: absolute;
+	    right: 10px;
+	    top: 0;
+	}
+	button.navbar-toggler:focus {
+	    box-shadow: none;
+	}
+	.header-bottom-right ul {
+	    margin: 0;
+	    margin-top: 3.2rem;
+	    text-align: right;
+	    background: #2e3234;
+	}
+	.header-section.sticky .header-bottom-left img {
+	    width: 85px;
+	}
+	.header-section.sticky .header-bottom-right ul {
+	    margin-top: 3.2rem;
+	    background: #fff;
+	}
+	.header-bottom-right ul li a {
+	    padding: 15px 10px!important;
+	    font-size: 15px;
+	    border-bottom: 1px solid #ddd;
+	}
+	li.nav-item {
+	    display: block;
+	}
+	.header-section .header-social ul{
+	    position: absolute;
+	    top: 0;
+	    right: 100px;
+	}
+	/* Nav end */
+	
+
+	/* Banner section */
+	.banner-section img {
+	    height: 300px!important;
+	}
+	.banner-text h1 {
+		text-transform: capitalize;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.banner-text p span {
+	    margin: 0px 3px;
+	    letter-spacing: 1px;
+	}
+	.banner-text p {
+	    font-size: 15px;
+	    margin-bottom: 5px;
+	}
+	p.last-one {
+	    left: 0;
+	    transform: translateX(0%);
+	    font-size: 13px;
+	    width: 100%;
+	    text-align: center;
+	    letter-spacing: 1px;
+	}
+	.button-section a {
+	    font-size: 16px;
+	    padding: 5px 15px;
+	    margin: 0px 7px;
+	}
+	.banner-section .button-section {
+	    position: absolute;
+	    bottom: 12%;
+	}
+
+	/* Banner section */
+
+
+	.video-section.mt-5 iframe {
+	    height: 400px;
+	}
+
+	/* Cryotherapy */
+	.cryotherapy-section.mt-5 {
+	    padding: 30px 0px;
+	}
+	.cryo-left p, .cryo-right p {
+	    font-size: 16px
+	}
+	/* End */
+
+	.blogging-item a h3 {
+	    padding: 0px 20px;
+	    font-size: 22px;
+	    margin-top: 15px;
+	    color: #1767a0;
+	}
+	.news-letter .contact-left {
+	    margin-top: 50px;
+	}
+
+	.who-left img{
+		width: 100%;
+	}
+
+	.wet-therapy-section img {
+	    height: 100%;
+	}
+	.wet-therapy-section {
+	    margin-bottom: 15px;
+	}
+	.wet-therapy-section h3 {
+		text-align: center;
+	}
+
+	.ice-bath-left h4 {
+	    font-size: 16px;
+	    margin-top: 10px;
+	}
+	.ice-bath-left p {
+	    font-size: 14px;
+	}
+	.ice-bath-right img {
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.normatec-section.mt-5 h2 {
+	    font-size: 22px;
+	}
+	.instruction ul li {
+	    padding: 5px 0px;
+	    font-size: 15px;
+	}
+	.faq-section h3 {
+	    font-size: 16px;
+		text-align: center;
+	}
+	.accordion-button {
+	    font-size: 14px;
+	    text-align: left;
+	}
+	strong {
+	    font-size: 12px;
+	}
+	.accordion-button::after {
+	    width: 1rem;
+	    height: 1rem;
+	    background-size: 1rem;
+	    position: absolute;
+	    right: 20px;
+	    top: 16px;
+	}
+	.faq-right img {
+	    height: auto;
+	}
+	.who-right {
+	    padding: 0px;
+	    padding-right: 0;
+	    margin-top: 20px;
+	}
+	.who-right h3 {
+	    font-weight: 700;
+	    color: #3a3a3a;
+	    text-transform: capitalize;
+	    font-size: 18px;
+	}
+	.who-right p {
+	    font-size: 13px;
+	}
+
+	.contact-us-section.mt-5 {
+	    padding: 25px 0px;
+	}
+	.contact-us-section.mt-5 h2 {
+	    color: #fff;
+	    margin-bottom: 15px;
+	}
+	.contact-left {
+	    margin-top: 0px;
+	}
+
+	.contact-left h3 {
+	    font-size: 30px;
+	}
+	.contact-left p {
+	    font-size: 17px;
+	    line-height: 1.5;
+	}
+	.footer-left,.footer-middle,.footer-right {
+	    text-align: center;
+	}
+	.footer-left p {
+	    margin-bottom: 20px;
+	    font-size: 15px;
+	}
+	.copyright-section p {
+	    font-size: 13px;
+	}
+
+
+}
